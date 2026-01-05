@@ -18,7 +18,7 @@
 
 The context system provides LLMs with business information needed for task execution. It follows a domain-based architecture with six core domains, each containing documents at varying levels of detail.
 
-**Location:** `context/`
+**Location:** `context/` (or `context-template/`, `context-example/`, or your custom path)
 
 **Design principles:**
 - One source of truth per fact

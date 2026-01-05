@@ -23,7 +23,7 @@ Context documents use simple, descriptive lowercase names with hyphens:
 ## Storage Paths
 
 ```
-context/
+context/  (or context-template/, context-example/, or your custom path)
 ├── identity/       # company-brief.md, brand-voice.md, positioning.md
 ├── offerings/      # offerings-overview.md, [product]-product-brief.md
 ├── customers/      # customer-personas.md, journey-map.md
@@ -32,6 +32,8 @@ context/
 ├── strategy/       # strategy-overview.md, goals.md
 └── .archive/       # Deprecated documents (don't delete, archive)
 ```
+
+**Note:** The folder name may be `context/`, `context-template/`, `context-example/`, or a custom path depending on your project setup.
 
 ---
 

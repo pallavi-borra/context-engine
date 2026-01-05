@@ -214,7 +214,7 @@ This skill has three workflows. Load the appropriate workflow based on intent.
 The context system uses six core domains:
 
 ```
-context/
+context/  (or context-template/, context-example/, or your custom path)
 ├── identity/       # Who we are (mission, values, voice)
 ├── offerings/      # What we sell (products, pricing, value props)
 ├── customers/      # Who we serve (personas, journey, signals)
@@ -222,6 +222,8 @@ context/
 ├── operations/     # How we work (team, processes, tools)
 └── strategy/       # Where we're going (goals, initiatives, risks)
 ```
+
+**Note:** The folder name may vary (`context/`, `context-template/`, `context-example/`, or a custom path). The structure remains the same.
 
 **See `knowledge/context-architecture.md` for the complete current state.**
 

@@ -224,6 +224,9 @@ See [Document Name](relative/path.md) for more details.
 ### Finding what links to a document:
 ```bash
 grep -r "document-name.md" context/
+# Or if using a different folder name:
+grep -r "document-name.md" context-template/
+grep -r "document-name.md" context-example/
 ```
 
 ### Checking for broken links:

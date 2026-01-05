@@ -42,9 +42,12 @@ Discover all files currently in the context system.
 **Run:**
 ```bash
 find context -name "*.md" -not -path "*/.archive/*"
+# Or if using a different folder name:
+# find context-template -name "*.md" -not -path "*/.archive/*"
+# find context-example -name "*.md" -not -path "*/.archive/*"
 ```
 
-Or use Glob to find all markdown files in context folders.
+Or use Glob to find all markdown files in context folders. **Note:** The folder name may be `context/`, `context-template/`, `context-example/`, or a custom path - adjust commands accordingly.
 
 ### Step 1.2: Compare to Architecture Map
 
@@ -64,7 +67,12 @@ Compare actual files against `knowledge/context-architecture.md`.
 1. Find all relative links:
 ```bash
 grep -r --exclude-dir=.archive "](../" context/ | grep ".md)"
+# Or if using a different folder name:
+# grep -r --exclude-dir=.archive "](../" context-template/ | grep ".md)"
+# grep -r --exclude-dir=.archive "](../" context-example/ | grep ".md)"
 ```
+
+**Note:** Adjust the folder name (`context/`, `context-template/`, `context-example/`, or your custom path) to match your project structure.
 
 2. For each link found, verify the target exists in the Step 1.1 inventory.
 

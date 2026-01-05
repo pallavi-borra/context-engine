@@ -38,7 +38,7 @@ That's the Context Engine in action. The rest of this system just makes it organ
 
 ```
 context-engine/
-├── context/                     # Starter context files (copy and customize)
+├── context-template/            # Boilerplate template (copy and customize)
 │   ├── identity/                # Who you are
 │   ├── offerings/               # What you sell
 │   ├── customers/               # Who you serve
@@ -47,33 +47,45 @@ context-engine/
 │   ├── strategy/                # Where you're going
 │   └── .archive/                # Deprecated documents
 │
+├── context-example/              # Realistic example (FlowSpace - creative PM tool)
+│   ├── identity/                # Complete example implementation
+│   ├── offerings/               # Shows structure and detail level
+│   ├── customers/               # Reference for how to fill templates
+│   ├── market/                  # Same structure, different business
+│   ├── operations/              # Demonstrates full context system
+│   └── strategy/                # Ready-to-use example
+│
 ├── skills/
 │   └── context-sculpting/       # Maintenance skill (Claude Code / advanced)
 │       ├── SKILL.md             # Main skill instructions
 │       ├── workflow/            # Update, interview, audit workflows
 │       └── knowledge/           # Architecture, standards, patterns
 │
-└── templates/                   # Reference templates (same as context/ files)
+└── templates/                   # Legacy templates (use context-template/ instead)
     ├── company-brief.template.md
     ├── customer-personas.template.md
     ├── offerings-overview.template.md
     └── context-architecture.template.md
 ```
 
+**Note:** The `templates/` folder contains legacy individual template files. The `context-template/` folder is the recommended starting point as it provides the complete folder structure with all templates in place.
+
 ## Quick Start
 
-### 1. Copy the structure
+### 1. Copy the template
 
 ```bash
 # Clone this repo
 git clone https://github.com/jakreymyers/context-engine.git
 
-# Copy context folder to your project
-cp -r context-engine/context ./context
+# Copy the template folder to your project (rename to context/)
+cp -r context-engine/context-template ./context
 
 # Optional: Copy the skill (for Claude Code users)
 cp -r context-engine/skills/context-sculpting ./.claude/skills/
 ```
+
+**Reference:** Check out `context-example/` to see a complete, realistic example (FlowSpace - a project management tool for creative teams) that shows the same structure and detail level.
 
 ### 2. Fill in your first document
 
