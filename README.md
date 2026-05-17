@@ -1,5 +1,7 @@
 # 🎉 context-engine - Empowering AI with Your Business Knowledge
 
+[![SafeSkill 89/100](https://img.shields.io/badge/SafeSkill-89%2F100_Passes%20with%20Notes-yellow)](https://safeskill.dev/scan/pallavi-borra-context-engine)
+
 ## 🛠️ Overview
 context-engine is a structured system designed to give AI agents instant and accurate knowledge of your business. This application helps you avoid re-explaining details in every conversation, saving you time and effort.
 
